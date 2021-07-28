@@ -76,39 +76,40 @@
             <ul class="menu__list">
                                                 
                                     <li class="menu__item">
-                        <a href="../about" class="menu__link">
+                        <a href="about.html" class="menu__link">
                             <span class="menu__hover">About</span>
                             <span class="menu__text" aria-hidden="true">About</span>
                         </a>
                     </li>
                                     <li class="menu__item">
-                        <a href="../services/competency" class="menu__link">
+                        <a href="upcoming.html" class="menu__link">
                             <span class="menu__hover">Services</span>
                             <span class="menu__text" aria-hidden="true">Services</span>
                         </a>
                     </li>
+                                   
                                     <li class="menu__item">
-                        <a href="../ecommerce" class="menu__link">
-                            <span class="menu__hover">Ecommerce</span>
-                            <span class="menu__text" aria-hidden="true">Ecommerce</span>
-                        </a>
-                    </li>
-                                    <li class="menu__item">
-                        <a href="../upcoming" class="menu__link">
+                        <a href="upcoming.html" class="menu__link">
                             <span class="menu__hover">Careers</span>
                             <span class="menu__text" aria-hidden="true">Careers</span>
                         </a>
                     </li>
                                     <li class="menu__item">
-                        <a href="../blog" class="menu__link">
-                            <span class="menu__hover">Blog</span>
-                            <span class="menu__text" aria-hidden="true">Blog</span>
-                        </a>
-                    </li>
+                            <a href="blog.html" class="menu__link">
+                                <span class="menu__hover">Blog</span>
+                                <span class="menu__text" aria-hidden="true">Blog</span>
+                            </a>
+                        </li>
                                     <li class="menu__item">
-                        <a href="contact" class="menu__link">
+                        <a href="contact.html" class="menu__link">
                             <span class="menu__hover">Contact</span>
                             <span class="menu__text" aria-hidden="true">Contact</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="team.html" class="menu__link">
+                            <span class="menu__hover">Team</span>
+                            <span class="menu__text" aria-hidden="true">Team</span>
                         </a>
                     </li>
                             </ul>
@@ -411,76 +412,64 @@
     
 <ul class="footer__list">
             <li class="footer__list-item">
-            <a href="../upcoming" class="footer__list-link">Careers</a>
+            <a href="upcoming.html" class="footer__list-link">Careers</a>
         </li>
             <li class="footer__list-item">
-            <a href="..\contact" class="footer__list-link">Contact</a>
+            <a href="contact.html" class="footer__list-link">Contact</a>
         </li>
         <li class="footer__list-item">
-            
-        <a href="mailto:team@nexgle.com" target="_blank" rel="noopener" class="footer__list-link">Mail</a>
-    </li>
+            <a href="team.html" class="footer__list-link">Team</a>
+        </li>
 </ul>
 
         </nav>
         
-        <ul class="social">
-            <li class="social__item">
-                <a href="https://www.linkedin.com/company/nexgle" class="social__link" rel="noopener noreferrer" target="_blank">
-                    <img src="..\application\themes\nexgle\app\images\interface\social-linkedin.svg" alt="Nexgle LinkedIn" class="social__icon">
-                </a>
-            </li>
-            <li class="social__item">
-                <a href="skype:live:nexgle" class="social__link" rel="noopener noreferrer" target="_blank">
-                    <img src="..\application\themes\nexgle\app\images\interface\social-twitter.svg" alt="Skype" class="social__icon">
-                </a>
-            </li>
-        </ul>
-        
+   
         <p class="footer__copyright">&copy; Copyright 2019 - 2020 Nexgle. All rights reserved.</p>
         <p class="footer__copyright">Nexgle Intl Private Limited. Hyderabad 500032.</p>
         <nav class="footer__nav footer__nav--small">
             <ul class="footer__list u-mt-half">
                 <li class="footer__list-item">
-                    <a href="../upcoming" class="footer__list-link">Privacy policy</a>
+                    <a href="upcoming" class="footer__list-link">Privacy policy</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="../upcoming" class="footer__list-link">Terms & Conditions</a>
+                    <a href="upcoming" class="footer__list-link">Terms & Conditions</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="../upcoming" class="footer__list-link">Sitemap</a>
+                    <a href="upcoming" class="footer__list-link">Sitemap</a>
                 </li>
             </ul>
         </nav>
     </div>
 </footer>
-
 </div>
-<script src="..\v3\polyfill.min.js"></script>
-<script src="..\application\themes\nexgle\app\javascript\application.js?v=20200824110140"></script>
+<script src="v3\polyfill.min.js"></script>
+<script src="application\themes\nexgle\app\javascript\application.js?v=20200824110140"></script>
 <!-- Start of Async Drift Code -->
 <script>
 "use strict";
 
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
+! function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+        if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+            t.factory = function(e) {
+                return function() {
+                    var n = Array.prototype.slice.call(arguments);
+                    return n.unshift(e), t.push(n), t;
+                };
+            }, t.methods.forEach(function(e) {
+                t[e] = t.factory(e);
+            }), t.load = function(t) {
+                var e = 3e5,
+                    n = Math.ceil(new Date() / e) * e,
+                    o = document.createElement("script");
+                o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                var i = document.getElementsByTagName("script")[0];
+                i.parentNode.insertBefore(o, i);
+            };
+    }
 }();
 drift.SNIPPET_VERSION = '0.3.1';
 drift.load('ket8drycn8cn');
